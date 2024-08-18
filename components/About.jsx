@@ -25,7 +25,7 @@ const infoData = [
   },
   {
     icon: <GraduationCap size={20} />,
-    text: "BTech in Computer Science Engineering",
+    text: "BTech Computer Science Engineering",
   },
   {
     icon: <HomeIcon size={20} />,
@@ -40,7 +40,7 @@ const qualificationData = [
       {
         College: "Jaypee Institute of Information Technology (JIIT), Noida",
         qualification:
-          "Bachelor of Technology in Computer Science and Engineering (CSE)",
+          "Bachelor of Technology Computer Science and Engineering (CSE)",
         year: "2021-2025",
       },
       {
@@ -127,8 +127,7 @@ const About = () => {
 
   return (
     <>
-      <section className="xl:h-[868px] pb-12 xl:py-24 "
-      id="about-section">
+      <section className="xl:h-[868px] pb-12 xl:py-24 " id="about-section">
         <br />
         <div className="container mx-auto">
           <br />
@@ -170,10 +169,10 @@ const About = () => {
                   <TabsContent value="personal">
                     <div className="text-center cl:text-left">
                       <h3 className="h3 md-4">
-                        Unmatched services for over 10 yr
+                        Unmatched services and hardwork
                       </h3>
                       <p className="subtitle max-w-xl max-auto xl:mx-0">
-                        Specialize in crafting website
+                        Specialize in crafting website and Problem solving
                       </p>
 
                       {/* */}
@@ -332,6 +331,7 @@ const About = () => {
             </div>
           </div>
         </div>
+        <br />
       </section>
     </>
   );

@@ -18,11 +18,11 @@ const servicesData = [
     icon: <Globe size={72} strokeWidth={0.8} />,
     title: "Full Stack Developer",
     description:
-      "Hands-on experience with front-end technologies like HTML, CSS, JavaScript, and frameworks such as React. On the back end, I work with Node.js and Express.js to build scalable applications, and I’m proficient in database management using MySQL and MongoDB. My expertise extends to tools like Git/GitHub for version control and collaborative development",
+      "Hands-on experience with front-end technologies like HTML, CSS, JavaScript, and React. On the back end, I work with Node.js and Express.js to build scalable applications, and I’m proficient in database management using MySQL and MongoDB. My expertise extends to tools like Git/GitHub for version control and collaborative development",
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
-    title: "Open Source Contributer",
+    title: "Open Source Contributor",
     description:
       "Actively contribute to projects that enhance accessibility and functionality for a broader audience. My contributions reflect my commitment to continuous learning and community engagement.",
   },
@@ -66,6 +66,7 @@ function Services() {
             })}
           </div>
         </div>
+        <br/>
       </section>
     </>
   );
