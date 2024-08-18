@@ -1,21 +1,23 @@
-import React from "react";
+"use client";
+
+import React, { useCallback } from "react";
 import Link from "next/link";
 
 import { Button } from "./ui/button";
-import { Download, Send } from "lucide-react";
-
-import {
-  RiBriefcase4Fill,
-  RiTeamFill,
-  RiTodoFill,
-  RiArrowDownSLine,
-} from "react-icons/ri";
+import { Send, CircleChevronDown } from "lucide-react";
+import { RiArrowDownSLine } from "react-icons/ri";
 
 import DevImg from "./DevImg";
-import Badge from "./Badge";
-import Socail from "./Social";
 import Social from "./Social";
+
 const Hero = () => {
+  const scrollToAbout = useCallback(() => {
+    const aboutSection = document.getElementById("about-section");
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: "smooth" });
+    }
+  }, []);
+
   return (
     <section
       className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero
@@ -28,9 +30,10 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
               Web Developer
             </div>
-            <h1 className="h1 mb-4">Hello, my name is Atinder kumar</h1>
+            <h1 className="h1 mb-4">Hello, my name is Atinder Kumar</h1>
             <p className="subtitle max w [490px] mx auto xl:mx 0">
-              Brief destructive with insight into myself
+              Skilled in full stack development, and DSA. Created projects like
+              Consultiva, solving complex problems with impactful results.
             </p>
 
             {/* */}
@@ -40,9 +43,13 @@ const Hero = () => {
                   Contact me <Send size={18} />
                 </Button>
               </Link>
-              <Button variant="secondary" className="gap-x-2">
-                Download CV
-                <Download size={18} />
+              <Button
+                variant="secondary"
+                className="gap-x-2"
+                onClick={scrollToAbout}
+              >
+                About Me
+                <CircleChevronDown size={18} />
               </Button>
             </div>
             {/* */}
@@ -51,7 +58,7 @@ const Hero = () => {
               iconsStyles="text-foreground text-[22px] hover:text-primary transition-all"
             />
           </div>
-          {/*Image*/}
+          {/* Image */}
           <div className="hidden xl:flex relative">
             <div
               className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute
@@ -60,7 +67,7 @@ const Hero = () => {
               {" "}
             </div>
             <DevImg
-              containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
+              containerStyles="bg-hero_shape w-[500px] h-[450px] bg-no-repeat relative bg-bottom"
               imgSrc="/assets/about/atinder.png"
               imgSize="w-100 h-90"
             />
@@ -69,7 +76,7 @@ const Hero = () => {
         {/* */}
         <div
           className="hidden md:flex absolute left-2/4
-    bottom-44 xl:bottom-12 animate-bounce"
+    bottom-40 xl:bottom-4 animate-bounce"
         >
           <RiArrowDownSLine className="text-3xl text-primary" />
         </div>

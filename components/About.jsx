@@ -127,7 +127,8 @@ const About = () => {
 
   return (
     <>
-      <section className="xl:h-[868px] pb-12 xl:py-24">
+      <section className="xl:h-[868px] pb-12 xl:py-24 "
+      id="about-section">
         <br />
         <div className="container mx-auto">
           <br />
