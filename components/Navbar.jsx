@@ -6,7 +6,11 @@ import { motion } from "framer-motion";
 const links = [
   { path: "/", name: "home" },
   { path: "/projects", name: "my projects" },
-  { path: "/projects", name: "Resume" },
+  {
+    path: "https://drive.google.com/file/d/17UiEStTuWhKYBQaJVi8qLDYx9lcnreyM/view?usp=sharing",
+    name: "Resume",
+    external: true, // Flag to identify external links
+  },
   { path: "/contact", name: "contact" },
 ];
 
@@ -25,6 +29,8 @@ const Navbar = ({
           href={link.path}
           key={index}
           className={`relative capitalize ${linkStyles}`}
+          target={link.external ? "_blank" : "_self"}
+          rel={link.external ? "noopener noreferrer" : ""}
         >
           {link.name}
           {link.path === path && (

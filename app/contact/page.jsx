@@ -30,17 +30,17 @@ const Contact = () => {
             <div className="flex flex-col gap-y-4 xl:gap-y-14 mb-12 xl:mb-24 text-base xl:text-lg">
             {/*Mail */}
             <div className="flex items-center gap-x-8">
-              <MailIcon sie={18} className="text-primary"/>
+              <MailIcon size={18} className="text-primary"/>
               <div>atinderk71@gmail.com</div>
             </div>
             <div className="flex items-center gap-x-8">
-              <HomeIcon sie={18} className="text-primary"/>
+              <HomeIcon size={18} className="text-primary"/>
               <div>Noida , UttarPradesh, India
               <br/>
               Pincode:201301</div>
             </div>
             <div className="flex items-center gap-x-8">
-              <PhoneCall sie={18} className="text-primary"/>
+              <PhoneCall size={18} className="text-primary"/>
               <div>+91 98210 23521</div>
             </div>
 
@@ -50,6 +50,7 @@ const Contact = () => {
             <Form/>
           </div>
         </div>
+        <br/>
       </section>
     </>
   )
