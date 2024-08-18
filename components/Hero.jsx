@@ -1,5 +1,5 @@
 "use client";
-
+import Typical from "react-typical";
 import React, { useCallback } from "react";
 import Link from "next/link";
 
@@ -28,7 +28,22 @@ const Hero = () => {
           {/* */}
           <div className="flex max-w-[680px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
-              Web Developer
+              <Typical
+                steps={[
+                  "Full Stack Developer",
+                  5000,
+                  "DSA Enthusiast",
+                  5000,
+                  "Web Developer",
+                  5000,
+                  "Open Source Contributor",
+                  5000,
+                  "learner",
+                  5000,
+                ]}
+                loop={Infinity}
+                wrapper="span"
+              />
             </div>
             <h1 className="h1 mb-4">Hello, my name is Atinder Kumar</h1>
             <p className="subtitle max w [490px] mx auto xl:mx 0">

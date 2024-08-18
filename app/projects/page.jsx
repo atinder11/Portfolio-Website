@@ -19,18 +19,26 @@ const projects = [
     live: "https://code-placement.000webhostapp.com/index.php",
   },
   {
-    title: "Project 3",
-    description: "Description for project 3",
-    tech: ["Vue.js", "Bootstrap"],
-    github: "https://github.com/user/project3",
-    live: "https://project3.example.com",
+    title: "Consultiva",
+    description: "The Consultiva project responds to the pressing need for innovative healthcare solutions in an era marked by increased reliance on digital technology. Aimed at addressing limitations in healthcare accessibility and enhancing the efficiency of medical consultations.",
+    tech: ["Javascript","React","Node js","Python","Bootstrap"],
+    github: "https://github.com/Dhruv-Singhal-15/Minor_sem5_grp42",
+    live: "#",
   },
   {
-    title: "Project 4",
-    description: "Description for project 4",
-    tech: ["Angular", "Sass"],
-    github: "https://github.com/user/project4",
-    live: "https://project4.example.com",
+    title: "Skill Sprint",
+    description: "This project presents SkillSprint, an innovative platform designed to empower students and professionals alike to acquire new skills efficiently and effectively. SkillSprint is a comprehensive skill-learning ecosystem that leverages cutting-edge technologies to deliver a personalized and engaging learning experience.",
+    tech: [ "React.Js", "Tailwind css", "Python" , "Flask" , "SQLite"],
+    github: "https://github.com/Dhruv-Singhal-15/SkillSprint",
+    live: "#",
+  },
+  
+  {
+    title: "Youtube Clone",
+    description: "This project is a YouTube clone implemented using HTML, CSS, and JavaScript. The goal of this project is to recreate the basic functionality and design of the popular video-sharing platform YouTube. This clone will allow users to view videos, search for videos, play videos, and interact with the user interface.",
+    tech: ["HTML", "Css","JavaScript","Bootstrap"],
+    github: "https://github.com/atinder11/Youtube-Clone",
+    live: "#",
   },
   {
     title: "Timetable Bot",
@@ -39,13 +47,6 @@ const projects = [
     tech: ["Telegram API"],
     github: "https://github.com/atinder11/F3-Timetable-Bot",
     live: "https://t.me/F3Timetable_bot",
-  },
-  {
-    title: "Project 6",
-    description: "Description for project 6",
-    tech: ["Java", "Spring Boot"],
-    github: "https://github.com/user/project6",
-    live: "https://project6.example.com",
   },
 ];
 
