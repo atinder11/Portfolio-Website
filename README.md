@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌟 Portfolio Website 🌟
 
-## Getting Started
+Welcome to my personal portfolio website! This project is a showcase of my skills, experience, and projects as a web developer. The site is designed to provide a comprehensive view of my work and expertise.
 
-First, run the development server:
+## 🚀 Features
+
+- **Server-Side Rendering (SSR)**: Enhances SEO and performance with Next.js's SSR capabilities.
+- **Dark Mode**: Dark mode option for Improved Readability and Reduced Eye Strain.
+- **Responsive Design**: Ensures a seamless experience on both mobile and desktop devices.
+- **Interactive Components**: Includes engaging elements such as a typewriter effect and a dynamic contact form.
+- **Contact Form Integration**: Submissions are captured and managed via Google Sheets.
+
+##  🌐 Website link: https://atinder-kumar.vercel.app/
+
+## 📸 Screenshot:
+- **Home Page** :
+
+![image](https://github.com/user-attachments/assets/74aa3dc3-7e33-45b7-af3e-db0af7a9fae6)
+
+- **Dark Mode** :
+![image](https://github.com/user-attachments/assets/965b2008-5b89-4ff1-a7a9-add5ad132707)
+
+- **About us** :
+
+![image](https://github.com/user-attachments/assets/2c6be658-5af6-490d-9a7c-943728e4376d)
+
+- **Skills** :
+
+![image](https://github.com/user-attachments/assets/743619ca-6af6-497a-b7d5-73f55bc45dcb)
+
+- **Project** :
+
+![image](https://github.com/user-attachments/assets/f6405a9a-fba3-47f7-b7db-619b3a617ded)
+
+![image](https://github.com/user-attachments/assets/f0c609c1-e8ac-4114-9061-2ff865806d7e)
+
+-  **Contact us** :
+
+![image](https://github.com/user-attachments/assets/9e3577c8-0dfd-4034-ad59-63e963ff9080)
+
+![image](https://github.com/user-attachments/assets/6f3e0564-5037-4de0-be9c-0562384e138f)
+
+
+
+
+
+
+
+
+
+## 🛠️ Tech Stack
+
+- **Next.js**: A powerful React framework for server-side rendering and static site generation.
+- **React**: A library for building user interfaces with a component-based approach.
+- **Tailwind CSS**: A utility-first CSS framework for designing custom and responsive layouts.
+- **Lucide Icons**: A collection of customizable icons for enhancing UI.
+- **Google Sheets API**: Handles and stores contact form submissions.
+
+  
+
+## 📦 Installation
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/atinder11/Portfolio-Website.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install dependencies in the respective directories
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+  npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+  yarn
+```
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Run the application in  on your localhost
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  yarn run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+###
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+##  🧑‍💻Authors
+- [Atinder Kumar](https://github.com/atinder11)
